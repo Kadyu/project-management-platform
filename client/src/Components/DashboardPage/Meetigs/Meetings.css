@@ -1,0 +1,61 @@
+.meeting-input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.meeting-btn{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.meeting-task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    padding: 2px 5px 2px 20px;
+    margin-top: 20px;
+}
+
+.meeting-icon{
+    width: 90px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.meetinglink-icon{
+    cursor: pointer;
+}
+
+
+.meeting-container .ant-card{
+    background: transparent !important;
+    background-size: cover !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 10px !important;
+    backdrop-filter: blur(60px) !important;
+    color: #fff !important;
+}
+
+
+

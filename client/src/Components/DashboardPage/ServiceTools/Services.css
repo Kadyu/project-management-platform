@@ -1,0 +1,33 @@
+.services-container .ant-card{
+    background: transparent;
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px ;
+    backdrop-filter: blur(60px);
+    color: #fff;
+    border-radius: 50px;
+}
+
+.services-container .ant-btn-primary {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 80px !important;
+}
+
+
+.services-container .ant-typography{
+    color:  rgb(255, 255, 255) !important;
+}
+
+.services-input{
+    width: 500px;
+    padding: 10px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+}
+
+.ant-spin-dot-item{
+    background-color: white !important;
+}

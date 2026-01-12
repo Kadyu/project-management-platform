@@ -1,0 +1,63 @@
+.todo-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.todo-container .ant-card{
+    background: transparent !important;
+    background-size: cover !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 10px !important;
+    backdrop-filter: blur(30px) !important;
+    color: #fff !important;
+}
+
+.todo-container .todo-inner{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0;
+}
+
+.todo-input{
+    width: 300px;
+    padding: 10px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+}
+
+.todo-btn{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.todo-task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 345px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    padding: 2px 5px 2px 30px;
+    margin-top: 20px;
+
+}
+
+.todo-icon{
+    width: 90px;
+    font-size: 20px;
+    cursor: pointer;
+}
+

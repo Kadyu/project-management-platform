@@ -1,0 +1,17 @@
+.maincontent-container .ant-card{
+    background: transparent;
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px ;
+    backdrop-filter: blur(60px);
+    color: #fff;
+ }
+ 
+
+ .maincontent-container .ant-btn-primary {
+    background-color: rgba(0, 0, 0, 0.608) !important;
+ }
+
+ .maincontent-container .ant-typography{
+    color: white !important;
+ }

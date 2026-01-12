@@ -1,0 +1,76 @@
+nav{
+    width: 100%;
+    
+    color:white;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    backdrop-filter: blur(30px);
+}
+
+.navbar-logo{
+    width: 240px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: hsl(24, 98%, 34%);
+}
+
+.navbar-container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-btn{
+    background: white;
+    color: hsl(24, 98%, 34%);
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    
+}
+
+.join-modal .ant-btn:hover{
+    color:rgb(255, 140, 0) !important;
+    border-color: rgb(255, 140, 0) !important;
+    background-color: transparent !important;
+}
+
+.join-modal .ant-btn{
+    color:rgb(0, 0, 0) !important;
+    border-color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+}
+
+.join-modal .ant-btn-primary{
+    background-color: red;
+}
+
+.join-modal input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+.projects-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('../../assets/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.projects-text{
+    font-size: 30px;
+    padding-left: 40%;
+}
