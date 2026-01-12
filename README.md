@@ -54,7 +54,7 @@ The application follows a modern web architecture:
 The goal of this project is to provide a single, integrated platform that supports effective collaboration, communication, and project organization. By combining essential project management features with intelligent automation, the system helps teams stay organized and focused throughout their project workflow.
 
 
-## HOW to start this project:
+## How to start this project:
 
 Please, following the steps below:
 
